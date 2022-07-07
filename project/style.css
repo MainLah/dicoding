@@ -1,0 +1,177 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+@font-face {
+  font-family: "valorant";
+  src: url("Valorant\ Font.ttf");
+}
+
+.jumbotron {
+  padding: 60px;
+  background-color: #bd3944;
+}
+
+.jumbotron p {
+  text-align: center;
+  color: #fffbf5;
+  font-size: 55px;
+}
+
+h5 {
+  font-family: "valorant";
+  font-weight: 300;
+  font-size: 50px;
+  text-align: center;
+  color: #fffbf5;
+}
+
+nav {
+  padding: 7px;
+  background-color: #bd3944;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  padding-right: 50px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fffbf5;
+}
+
+.content {
+  float: left;
+  width: 75%;
+}
+
+.maps:nth-child(1) {
+  background-image: url(maps/map1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.maps:nth-child(2) {
+  background-image: url(maps/map2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.maps:nth-child(3) {
+  background-image: url(maps/map3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.maps:nth-child(4) {
+  background-image: url(maps/map4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.maps:nth-child(5) {
+  background-image: url(maps/map5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.maps:nth-child(6) {
+  background-image: url(maps/map6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.maps:nth-child(7) {
+  background-image: url(maps/map7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+aside {
+  float: right;
+  width: 25%;
+  padding-left: 55px;
+  text-align: center;
+}
+
+.card {
+  background-color: #fffbf5;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 9px;
+}
+
+.profile img {
+  width: 50%;
+  height: auto;
+  border-radius: 7px;
+}
+
+.mySlides {
+  display: none;
+}
+
+.maps {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.mySlides img {
+  position: center;
+  size: cover;
+  width: 500%;
+  height: 500%;
+  position: relative;
+}
+
+.next,
+.prev {
+  border: none !important;
+  background: transparent;
+  font-size: 5rem;
+  z-index: 4;
+  font-weight: 300 !important;
+  cursor: pointer;
+  transform: rotate(90deg);
+  color: #999;
+  align-items: center;
+}
+
+.next:hover,
+.prev:hover {
+  transition: all 0.9s ease-in-out;
+}
+
+.text {
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: absolute;
+  top: 24%;
+  left: 29%;
+  color: #fffbf5;
+  opacity: 75%;
+}
+
+.text h2 {
+  font-size: 5rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  position: relative;
+}
